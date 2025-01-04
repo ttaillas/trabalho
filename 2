@@ -1,0 +1,17 @@
+#include <stdio.h>
+int x,y,delt=0;
+int delta(){
+	scanf("%d %d", &x ,&y);
+	if(x<y) delt=y;
+	else{
+		delt=x;
+	}
+	printf("%d",delt);
+	return delt;
+}
+
+int main(){
+	
+	delta();	
+	return 0;
+}
